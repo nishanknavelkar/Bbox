@@ -11,6 +11,8 @@ Our team includes Yannick Kuhn, Srinath Kannou, Nishank Navelkar and Zihao Zhou
   
 - It might take some time for the server to start, to visualize the data open the link on your browser `http://localhost:8050/` (If the page does not load, reload the page multiple times)
 
+- Select the values from dropdown menu and visualize the parameters.
+
 ## Description of the App
 The app is divided into two parts
 - Visualization

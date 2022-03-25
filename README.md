@@ -1,3 +1,7 @@
+## Wiki
+
+check [wiki](wiki.md) to find instructions to run the visualization app.
+
 # Repository Readme
 
 This document is the repository readme - covering the data, some technical submission guidelines, source code, and execution environments that have already been provided to you. For a more general overview of the challenge, see the [Challenge Description](Challenge.md).
@@ -27,27 +31,9 @@ All this python code and tooling has dependencies which are encoded in the envir
 To install the anaconda environment, you need to have anaconda installed, then run:
 
 ```shell
-conda env create --file environments/environment.yml
+conda env create --file environment.yml
 ```
 
-To install the poetry environment, you need to have python 3.10 or higher installed, then run:
-
-```shell
-cp environments/pyproject.toml .; poetry install
-```
-
-To install the Docker environment, you need to have Docker installed, then run:
-
-```shell
-cp environments/docker-compose.yml .
-cp environments/Dockerfile .
-cp environments/jupyter.sh .
-docker-compose build
-```
-
-The Docker container is setup to run a juypter lab server on start. You can start it with `docker-compose up`.
-
-After you picked and setup an environment in your repository, please delete the other environment files so the judges know which one you used when judging the submissions.
 
 ## Notebooks
 
@@ -61,6 +47,3 @@ jupyter nbconvert --execute <notebook>
 
 We encourage competitors to use another open-source programming language to build their ML pipelines. We did not have time to setup the EIS utility library and environments in those languages! Sorry! Doing so will help the judges assess your submission.
 
-## Wiki
-
-check [wiki](wiki.md) to find instructions to run the visualization app.

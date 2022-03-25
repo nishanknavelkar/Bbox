@@ -8,5 +8,5 @@
 - It might take some time, to visualize the data open the link on your browser `http://localhost:8050/`
 
 ## References
-Theme: [bootstrap theme]([Iris - dbc examples](https://dash-bootstrap-components.opensource.faculty.ai/examples/iris/))
-Dash: [Dash](https://dash.plotly.com/)
+- Theme: [bootstrap theme](https://dash-bootstrap-components.opensource.faculty.ai/examples/iris/)
+- Dash: [Dash](https://dash.plotly.com/)

@@ -60,3 +60,7 @@ jupyter nbconvert --execute <notebook>
 ## Using Other Languages
 
 We encourage competitors to use another open-source programming language to build their ML pipelines. We did not have time to setup the EIS utility library and environments in those languages! Sorry! Doing so will help the judges assess your submission.
+
+## Wiki
+
+check [wiki](wiki.md) to find instructions to run the visualization app.

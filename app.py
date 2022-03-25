@@ -11,12 +11,6 @@ from matplotlib.dates import AutoDateFormatter, AutoDateLocator
 import plotly.graph_objs as go
 
 all_df = pd.read_csv('data/devices1.csv')
-#for i in range(1,4):
- #   curr_file_name = 'data/devices' + str(i+1) + '.csv'
-  #  curr_df = pd.read_csv(curr_file_name)
-   # all_df = pd.concat([all_df, curr_df])
-#df = pd.read_csv('data/devices1.csv')
-#batt0 = df.loc[df["battery_id"]==0]
 
 columns_todrop = ['current_in','current_out','panel_voltage','state_of_charge_percent','usb_current','voltage']
 batt0 = all_df.drop(columns=columns_todrop)

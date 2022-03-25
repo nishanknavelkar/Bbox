@@ -21,6 +21,9 @@ The app is divided into two parts
 Characteristics of cell such as voltage, current and power can be interactively visualized, the data is split in 1 day increements. 
 Future plan is to add insights about the cell such as power consumed by load, energy put in battery during charging, SOC and SOH measurements, performance of battery and cell degradation.
 
+## Interface
+![Image](img2.png)
+
 ## References
 - Theme: [bootstrap theme](https://dash-bootstrap-components.opensource.faculty.ai/examples/iris/)
 - Dash: [Dash](https://dash.plotly.com/)

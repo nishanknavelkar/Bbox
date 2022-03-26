@@ -22,7 +22,7 @@ Characteristics of cell such as voltage, current and power can be interactively 
 Future plan is to add insights about the cell such as power consumed by load, energy put in battery during charging, SOC and SOH measurements, performance of battery, cell degradation and usage profiles.
 
 ## Approach towards the problem
-In order to understand usage profiles, it is necessary that we have a intuitive understaning of the usage of the battery packs. Hence having a tool which can help us visualize the usage of a battery pack at any point of time is necessary. This app is my attempt towards solving the above problem.
+In order to understand usage profiles, it is necessary that we have a intuitive understanding of the usage of the battery packs. Hence having a tool which can help us visualize the usage of a battery pack at any point of time is necessary. This app is my attempt towards solving the above problem.
 
 ## Interface
 ![Image](img2.png)
